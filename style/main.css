@@ -1,0 +1,115 @@
+:root{
+    --azul: #0a3dc9;
+    --preto: #141414;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+header .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+
+header nav a {
+
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+
+    color: #fff;
+}
+
+.anime-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .40) 100%), url('/img/Kimestu.jpg');
+    height: 500px;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.anime-principal .descricao{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.anime-principal .titulo{
+    
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.anime-principal .botao{
+
+    background-color: rgba(0, 0, 0, .40);
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.anime-principal .botao:hover{
+
+    background-color: aliceblue;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.anime-principal .container{
+
+    width: 55%;
+    margin: 15px;
+}
+
+.carrousel-animes{
+
+    margin-top: 20px;
+}
+
+.box-filme{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
